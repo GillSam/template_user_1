@@ -103,6 +103,9 @@ def say_hello_command(client, args):
     )
 
 
+def say_goodbye_command(client, args):
+
+
 def say_hello_over_http_command(client, args):
     name = args.get('name')
 
